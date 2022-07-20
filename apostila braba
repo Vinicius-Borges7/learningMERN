@@ -1,7 +1,0 @@
-M = MongoDb -> banco de dados. não relacional mas PODE ser relacional(via de gambiarra).
-E = Express -> backend.
-R = React -> frontend.
-N = Node.js -> interpreta js, similar ao "motor v8" do navegador.
-
-Ligação entre as tecnologias:
-  
