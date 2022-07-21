@@ -1,0 +1,17 @@
+o'que é node.js?
+
+- o node "simula" o v8 e força o js a executar seus poderes em outros lugares mais inusitados, como em terminais. No geral o node nasceu para que você possa usar comandos js onde quiser.
+
+	(1) -> motor v8 = Maquina virtual v8, é a engine de alguns browsers feita para rodar JS, feita pela google, exemplo de uso:chrome e opera. tecnicamente, ele compila e desconpila os códigos binarios gerados pelo js, deixando seus processos mais velozes(similar a JVM do java);
+
+- Node por ser um compilador(runtime javascript), é multiplataforma e muito leve.
+
+- no node, cada arquivo js é um módulo
+
+
+	
+
+
+
+
+
