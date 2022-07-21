@@ -1,0 +1,3 @@
+mongo é uma base de dados nosql, ou seja, ela não usa sql como linguagem e além disso, também não é dependente de tabelas e colunas como no sql, tornando o processo muito mais simples doque já era
+
+sql                  mongol
