@@ -1,0 +1,38 @@
+
+texto copiado na cara de pau mesmo, é desse site aqui(https://gabrieluizramos.com.br/entendendo-o-package-json){
+				Name
+					- É o nome do projeto e pode ser o nome que você quiser.
+				Pode possuir um prefixo com @nome (como é o caso do @gabrieluizramos) que deixa claro qual o time responsável pelo pacote, inclusive facilita na publicação desse pacote outros pacotes com o mesmo nome.
+				Ou seja, nesse cenário, seria um pacote de utilitários (utils), mantido por um usuário (@gabrieluizramos).
+
+				Description
+					- Uma breve descrição do seu projeto e o que seu pacote realiza. Nesse ponto não há necessidade de se alongar na descrição já que o intuito desse campo não é fornecer uma documentação completa do seu projeto. Uma frase bem descritiva já é o suficiente.
+
+				Keywords
+					- É um array de palavras-chave do seu projeto e também é de livre preenchimento. Insira nessa parte as palavras que mais estão de acordo com seu projeto.
+
+				Author
+					- Como o própro nome indica, as informações sobre os desenvolvedores desse pacote. Pode ser dividida dentro da própria string e conter algumas partes como Nome <email> (site) deixando claro e facilitando qualquer eventual contato necessário com as pessoas envolvidas no projeto.
+
+				License
+					- É a licença escolhida para o projeto. Você consegue definir a padrão que será útilizada ao criar um novo arquivo package.json. Não vale a pena nos aprofundarmos nesse assunto por agora mas imagine que a licença é o "tópico" responsável por indicar como seu software/pacote deve ser distribuído e utilizado.
+
+				Bugs, homepage e repository
+					- São algumas informações que podem estar contidas no seu package.json que indicam uma homepage padrão do seu projeto, eventuais formas de contato para caso alguém encontre um bug e a forma como esse projeto é versionado
+}					
+
+dependencies
+    - biblioteca a qual aquele node precisa pra funcionar
+
+    npm install --save algo
+        - instala e salva a dependencia algo
+
+devdependencies
+    - biblioteca a qual aquele node precisa pra funcionar num ambiente de testes
+
+
+script
+	peguei do mesmo site{ 
+		O que os scripts nos permitem é realmente configurar rotinas e comandos a serem executados no nosso projeto. Você pode configurar comandos e rodar trechos de aplicações em JavaScript, Shell ou qualquer outra coisa que desejar
+	}
+
