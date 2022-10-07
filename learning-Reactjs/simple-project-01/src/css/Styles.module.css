@@ -1,0 +1,21 @@
+.button{
+    width: 5vw;
+    height: 10vh;
+
+    background-color: rgb(113, 0, 0);
+    border: 5px solid rgb(197, 0, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+.Title{
+    color: white;
+}
+
+.Text{
+    color: white;
+}
+
+.RageText{
+    color: rgb(197, 0, 0);
+}

@@ -1,9 +1,9 @@
 import Bababoie from "./bababoie";
-import '../css/teste.css'
+import Styles from '../css/teste.module.css';
 
 function teste(){
     return(
-        <div className='littleguy'>
+        <div className={Styles.littleguy}>
             <Bababoie />
         </div>
     )

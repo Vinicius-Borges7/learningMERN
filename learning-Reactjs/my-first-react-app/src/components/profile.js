@@ -1,6 +1,8 @@
+import Styles from '../css/teste.module.css';
+
 function Profile({name, age, phone, email}){
     return(
-        <div className="littleguy">
+        <div className={Styles.littleguy}>
             <h1>Welcome {name}!</h1>
             <p>these are your registrated informations</p>
             <p>Name: {name}</p>
