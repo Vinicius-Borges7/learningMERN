@@ -2,7 +2,7 @@ import '../css/App.css';
 import Button from './button';
 import Title from './title';
 
-function App(props) {
+function App() {
   return (
     <div className='App-header'>
       <Title/>

@@ -1,44 +1,44 @@
 import Styles from '../css/Styles.module.css';
 import Text from './text';
+import React, { useState } from 'react';
 
 function Button(){
-    let cont = 0;
-    let text = "Yay! anyone clicked me yet";
-    let emoji = ":D";
+    const [ text, setText ] = React.useState("Yay! anyone clicked me yet");
+    const [ emoji, setEmoji ] = React.useState(":D");
+    const [ cont, setCont ] = React.useState(1);
+    const [ mode, setMode] = React.useState(Styles.text);
+    const [ btnMode, setBtnMode ] = React.useState(Styles.button);
 
     function messageChanger(){
-        cont = cont + 1;
-        
+        setCont(cont + 1);
 
         if(cont == 1){
-            text = "hm?";
-            emoji = ":)";
+            setText("hm?");
+            setEmoji(":)");
         }
 
         if(cont == 2){
-            text = "hey!";
-            emoji = ":|";
+            setText("hey!");
+            setEmoji(":|");
         }
 
         if(cont == 3){
-            text = "stop, it hurts";
-            emoji = ":(";
+            setText("stop, it hurts");
+            setEmoji(":(");
         }
 
         if(cont == 4){
-            text = "I SAID, S T O P ! ! ! !";
-            emoji = ">:(";
+            setText("I SAID STOP!");
+            setEmoji(">:(");
+            setMode(Styles.rageText);
+            setBtnMode(Styles.rageButton)
         }
-        
-        console.log(cont);
-        console.log(text);
-        console.log(emoji);
     }
 
     return(
         <>
-            <button onClick={messageChanger} className={Styles.button}>{emoji}</button>
-            <Text value={text}/>
+            <button onClick={messageChanger} className={btnMode}>{emoji}</button>
+            <Text value={text} mode={mode}/>
         </>
     );
 }

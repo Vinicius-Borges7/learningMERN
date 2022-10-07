@@ -1,9 +1,10 @@
 import Styles from '../css/Styles.module.css';
+import React, { useState } from 'react';
 
-function Text({value}){
+function Text({value, mode}){
     return(
         <>
-            <p className={Styles.Text}>{value}</p>
+            <p className={mode}>{value}</p>
         </>
     );
 }

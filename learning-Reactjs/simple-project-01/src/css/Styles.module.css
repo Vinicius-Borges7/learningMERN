@@ -1,7 +1,15 @@
 .button{
     width: 5vw;
     height: 10vh;
+    background-color: rgb(100, 81, 207);
+    border: 5px solid rgb(147, 128, 255);
+    border-radius: 10px;
+    color: white;
+}
 
+.rageButton{
+    width: 5vw;
+    height: 10vh;
     background-color: rgb(113, 0, 0);
     border: 5px solid rgb(197, 0, 0);
     border-radius: 10px;
@@ -9,13 +17,14 @@
 }
 
 .Title{
-    color: white;
+    color: rgb(147, 128, 255);
 }
 
-.Text{
-    color: white;
+.text{
+    color: rgb(147, 128, 255);
+    
 }
 
-.RageText{
-    color: rgb(197, 0, 0);
+.rageText{
+    color: rgb(250, 72, 72);
 }
